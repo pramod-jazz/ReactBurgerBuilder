@@ -1,20 +1,20 @@
-import React, {Component} from 'react';
-import Layout from './components/layouts/Layout'
-
+import React, { Component } from 'react';
+import Layout from './components/layouts/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
 
 
 class App extends Component {
-  
-  render(){
+
+  render() {
     return (
       <div >
         <Layout>
-       <p> sa </p> </Layout>
-        
+<BurgerBuilder></BurgerBuilder>
+</Layout>
       </div>
     );
   }
-  
+
 }
 
 export default App;
